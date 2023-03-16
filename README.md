@@ -2,6 +2,9 @@
 
 Instruções para montagem do trabalho de arte "Relógio Sincrônico" da artista Isadora Maia, que esteve na exposição "Mesmo Estando Separados" com a curadoria de Bruna Fernanda, Caio Bonifácio, Érica Burini, Glauce Santos e Lucas Goulart, no Ateliê 397, que fica na Rua Cruzeiro, 802, Barra Funda. 
 
+<img src="./img/at_exhibition.JPG" alt="At exhibition" width="30%">
+<img src="./img/at_exhibition2.jpg" alt="At exhibition" width="40%">
+
 ## Materiais
 
 - Arduino UNO R3 ATMEGA328p
@@ -31,11 +34,4 @@ Para concretizar esse relógio, foi usado um Arduino conectado ao módulo RTC pa
 Para exibir os dígitos, foi usado um molde de impressão 3D que forme o desenho do display de 7 segmentos.
 A caixa de MDF pintada com tinta spray encapsulou os demais materiais, em especial para esconder os jumpers, protoboard e mostrar as peças feitas por impressão 3D com a fita LED no interior. A folha de acetato e o velcro evitam que as peças internas tenham contato com a parede e, por fim, a mão francesa garante apoio na parede para pendurar.
 
-## Mapeamento dos dígitos 
-
-![7 segmentos nomeados ABCDEFG](./img/Seven-segment-display.png)
-
-|     |    0   |   1   |   2   |   3   |   4  |   5   |    6   |   7  |    8    |    9   |
-|-----|:------:|:-----:|:-----:|:-----:|:----:|:-----:|:------:|:----:|:-------:|:------:|
-|  ON | ABCDEF |   BC  | ABDEG | ABCDG | BCFG | ACDFG | ACDEFG |  ABC | ABCDEFG | ABCDFG |
-| OFF |    G   | ADEFG |   CF  |   EF  |  ADE |   BE  |    B   | DEFG |         |    E   |
+<img src="./img/done.jpg" alt="Done!" width="40%">
